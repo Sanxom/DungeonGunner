@@ -49,7 +49,7 @@ public class DungeonLevelSO : ScriptableObject
         foreach (RoomTemplateSO roomTemplateSO in roomTemplateList)
         {
             if (roomTemplateSO == null) return;
-
+            Debug.Log(roomTemplateSO.name);
             if (roomTemplateSO.roomNodeType.isCorridorEW)
                 isEWCorridor = true;
             if (roomTemplateSO.roomNodeType.isCorridorNS)

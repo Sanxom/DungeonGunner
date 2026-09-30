@@ -31,7 +31,7 @@ public static class HelperUtilities
             return true;
         }
 
-        foreach (IEnumerable item in enumerableObjectToCheck)
+        foreach (var item in enumerableObjectToCheck)
         {
             if (item == null)
             {

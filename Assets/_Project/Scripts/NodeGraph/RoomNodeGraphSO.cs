@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -14,6 +15,15 @@ public class RoomNodeGraphSO : ScriptableObject
         LoadRoomNodeDictionary();
     }
 
+    public RoomNodeSO GetRoomNode(RoomNodeTypeSO roomNodeType)
+    {
+        foreach (RoomNodeSO roomNode in roomNodeList)
+            if (roomNode.roomNodeType == roomNodeType)
+                return roomNode;
+
+        return null;
+    }
+
     public RoomNodeSO GetRoomNode(string roomNodeID)
     {
         if (roomNodeDictionary.TryGetValue(roomNodeID, out RoomNodeSO roomNode))
@@ -22,14 +32,18 @@ public class RoomNodeGraphSO : ScriptableObject
         return null;
     }
 
+    public IEnumerable<RoomNodeSO> GetChildRoomNodes(RoomNodeSO parentRoomNode)
+    {
+        foreach (string childNodeID in parentRoomNode.childRoomNodeIDList)
+            yield return GetRoomNode(childNodeID);
+    }
+
     private void LoadRoomNodeDictionary()
     {
         roomNodeDictionary.Clear();
 
         foreach (RoomNodeSO node in roomNodeList)
-        {
             roomNodeDictionary[node.id] = node;
-        }
     }
 
     #region Editor Code
