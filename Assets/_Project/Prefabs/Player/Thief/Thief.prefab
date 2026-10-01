@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3623195968555716786
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 208107563280458922, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_Name
+      value: Weapon Sprite
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118799480457660884, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_Size.x
+      value: 1.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118799480457660884, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_Size.y
+      value: 0.6875
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118799480457660884, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118799480457660884, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2790146507074618836, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_Name
+      value: Player Sprite
+      objectReference: {fileID: 0}
+    - target: {fileID: 3132588394441522031, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_Size.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3132588394441522031, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_Size.y
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3132588394441522031, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9798f935fbe5b254d969bdf0330be622, type: 3}
+    - target: {fileID: 3132588394441522031, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3422167670332309059, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3422167670332309059, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3422167670332309059, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 3422167670332309059, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3422167670332309059, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 3422167670332309059, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_SpriteTilingProperty.adaptiveTilingThreshold
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4230457730952771447, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_Size.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4230457730952771447, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_Size.y
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4230457730952771447, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9798f935fbe5b254d969bdf0330be622, type: 3}
+    - target: {fileID: 4230457730952771447, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4230457730952771447, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418479710242511338, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_Name
+      value: Thief
+      objectReference: {fileID: 0}
+    - target: {fileID: 5267810868234203562, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5267810868234203562, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5267810868234203562, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5267810868234203562, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5267810868234203562, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5267810868234203562, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5267810868234203562, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5267810868234203562, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5267810868234203562, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5267810868234203562, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6140312474248809460, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: movementDetails
+      value: 
+      objectReference: {fileID: 11400000, guid: de0592744daf1e44d9c4c16b4b754211, type: 2}
+    - target: {fileID: 6856817763182053804, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_Name
+      value: Hand No Weapon Sprite
+      objectReference: {fileID: 0}
+    - target: {fileID: 7294201688883289894, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7294201688883289894, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7294201688883289894, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7294201688883289894, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 7294201688883289894, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7294201688883289894, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 7294201688883289894, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_SpriteTilingProperty.adaptiveTilingThreshold
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7655532344900362316, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_Name
+      value: Hand With Weapon Sprite
+      objectReference: {fileID: 0}
+    - target: {fileID: 7771880431568305697, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 1e673bab556c48e479c550b741fddfbb, type: 2}
+    - target: {fileID: 8582274882911957723, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2200474710894333254, guid: 8e8f0fe572a5ef143b22cd66fc6f3712, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6e87fec399f719345af3ab2dd7e3d011, type: 3}
