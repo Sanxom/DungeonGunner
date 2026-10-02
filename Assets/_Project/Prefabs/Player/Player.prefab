@@ -381,6 +381,8 @@ GameObject:
   - component: {fileID: 5090953029536794385}
   - component: {fileID: 1158180286112648984}
   - component: {fileID: 6422344469826424901}
+  - component: {fileID: 5243091591401814827}
+  - component: {fileID: 3846723184102674982}
   - component: {fileID: 3507499997787784964}
   - component: {fileID: 8024796960874143126}
   - component: {fileID: 3401624789546378559}
@@ -597,6 +599,7 @@ MonoBehaviour:
   movementByVelocityEvent: {fileID: 0}
   idleEvent: {fileID: 0}
   aimWeaponEvent: {fileID: 0}
+  movementToPositionEvent: {fileID: 0}
   <Sr>k__BackingField: {fileID: 8582274882911957723}
   <Animator>k__BackingField: {fileID: 7771880431568305697}
 --- !u!114 &5090953029536794385
@@ -635,6 +638,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2535e0c1e5272fe4fb369680832f5131, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MovementByVelocity
+--- !u!114 &5243091591401814827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4418479710242511338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbfa44a78615eba46b875107b456490f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MovementToPositionEvent
+--- !u!114 &3846723184102674982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4418479710242511338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c314e5a61edf6714ca05d79dc6fb03c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MovementToPosition
 --- !u!114 &3507499997787784964
 MonoBehaviour:
   m_ObjectHideFlags: 0
